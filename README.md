@@ -10,3 +10,5 @@ Before installing, please read the file first. It is a bash file, so you can edi
 3) You should edit your power schemes, and in one of them, the 'Processor Performance Boost Mode' should be disabled. In the end, you should have two different power schemes: one with the 'Processor Performance Boost Mode' enabled, and the other with it disabled.
 
 4) You can find your power scheme guid with that command on cmd: powercfg /list
+
+5) If you edit the bash file, you will see two commands: 'SET boost' and 'SET NoBoost'. You should replace the right-hand side of these commands with the relevant values for your system. The GUID for the power scheme with boost enabled should be assigned to 'SET boost = ...'.
